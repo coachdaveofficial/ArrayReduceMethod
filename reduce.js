@@ -107,6 +107,6 @@ function partition(arr, callback) {
             accum.push(current)
         } 
         return accum;
-     },)
+     },[])
      return [evens, odds];
 }
